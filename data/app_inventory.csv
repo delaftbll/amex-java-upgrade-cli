@@ -1,0 +1,16 @@
+app_name,current_java_version,dependencies,known_issues,lines_of_code,criticality
+CardAuthService,8,Spring Boot 2.3.0;Hibernate 5.4.0;javax.validation,Uses deprecated Date API;javax namespace,45000,high
+FraudDetectionService,8,Spring Boot 2.5.0;Apache Kafka 2.8;javax.ws.rs,javax to jakarta migration needed,67000,high
+PaymentProcessingEngine,8,Spring Boot 2.4.0;Oracle JDBC 19c;javax.persistence,Uses sun.misc.Unsafe;javax namespace,89000,high
+RewardsCalculator,8,Spring Boot 2.3.5;Redis Client 3.1;javax.annotation,Deprecated Thread.stop() usage,34000,medium
+CustomerProfileService,8,Spring Boot 2.2.0;MongoDB Driver 4.0;javax.xml,Old XML parsing APIs,28000,medium
+TransactionHistoryAPI,8,Spring Boot 2.6.0;Elasticsearch 7.10;javax.servlet,javax.servlet to jakarta.servlet,52000,high
+MerchantOnboardingService,8,Spring Boot 2.1.0;PostgreSQL 42.2;javax.mail,Uses deprecated SecurityManager,41000,medium
+RiskAssessmentEngine,8,Spring Boot 2.4.5;TensorFlow Java 0.3;javax.crypto,Cryptographic API changes,73000,high
+LoyaltyPointsService,8,Spring Boot 2.3.8;Cassandra Driver 4.10;javax.inject,javax namespace migration,31000,low
+BillingService,8,Spring Boot 2.5.5;RabbitMQ 5.12;javax.jms,JMS API updates needed,48000,high
+NotificationService,8,Spring Boot 2.2.5;Twilio SDK 8.0;javax.mail,Mail API deprecations,22000,low
+ReportingEngine,8,Spring Boot 2.4.2;Apache POI 5.0;javax.xml.bind,JAXB removed from JDK,56000,medium
+ComplianceAuditService,8,Spring Boot 2.3.3;Splunk SDK 1.6;javax.annotation,Annotation processing changes,39000,high
+APIGateway,8,Spring Boot 2.6.2;Netflix Zuul 2.1;javax.ws.rs,JAX-RS updates required,44000,high
+IdentityManagementService,8,Spring Boot 2.5.8;LDAP SDK 5.0;javax.naming,JNDI security changes,51000,high
